@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    border: 2px solid pink;
+    border-radius: 4px;
+    width: 1400px;
+    height: 1400px;
+    background-color: pink;
+}
+.cabeca{
+    display: flex;
+    border: 2px solid rgb(253, 253, 253);
+    align-items: center;
+}
+.texto1{
+    padding-left: 8px;
+    font-size: 50px;
+    color: white;
+    padding-right: 18px;
+}
+.traco1{
+    display: flex;
+    border: 2px solid white;
+    height: 55px;
+}
+.texto2{
+    padding-left: 19px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.curiosidades{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+.curio{
+    display: flex;
+    width: 40%;
+    border: 2px solid white;
+    color: white;
+    flex-wrap: wrap;
+}
+.sociais{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    border: 2px solid white;
+}
+.titulo1{
+    display: flex;
+    font-size: 40px;
+    padding-left: 9px;
+    font-weight: bold;
+    color: white;
+}
+.listinha{
+    position: relative;
+    font-size: 25px;
+    padding-right: 90px;
+}
+.textinho1{
+    color: white;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+.sociais1{
+    padding-left: 18px;
+}
+.textinho2{
+    padding-left: 10px;
+    display: flex;
+    font-size: 35px;
+    color: white;
+}
+.fotinhas{  
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.fotos{
+    border: 2px solid white;
+    width: 1287px;
+}
+.texto_foto{
+    padding-left: 8px;
+    color: white;
+    font-size: 40px;
+}
+.secao{
+    display: flex;
+    justify-content: center;
+    padding-left: 4px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.linda{
+    display: flex;
+    border: 1px solid white;
+    object-fit: cover;
+}
+.memes{
+    display: flex;
+    flex-direction: row;
+
+    border: 2px solid white;
+    width: 1287px;
+}
+.meme_texto{
+    font-size: 30px;
+    color: white;
+}
+.aaaa{
+    display: flex;
+    justify-content: center;
+}
+.memefoto{
+    border: 2px solid white;
+}
+.memezao{
+    flex-wrap: wrap;
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
