@@ -130,3 +130,16 @@ body{
     justify-content: center;
     gap: 30px;
 }
+.coracao{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+#coracaoo{
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: pink;
+    color: white;
+}
+#coracaoo:hover{
+    cursor: pointer;
+}
